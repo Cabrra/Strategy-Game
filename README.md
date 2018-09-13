@@ -1,7 +1,7 @@
 Strategy Game
 =============
 
-![Strategy Game Chart](https://github.com/Cabrra/cabrra.github.io/blob/master/Images/flowchart.jpg)
+![Strategy Game Chart](https://github.com/Cabrra/cabrra.github.io/raw/master/Images/flowchart.jpg)
 
 This is a very simple two-player turn-based strategy game. Each player controls a three-character team on a 6x6 playfield. Each team consists of an Archer, Sorcerer, and Warrior. 
 
@@ -20,17 +20,17 @@ They can only move to an empty space. If a player is unable to move (is trapped)
 The attack phase allows the user to pick a character on the screen to attack. The characters which can be attacked are those within the range of attack. This is determined by comparing the 
 location of the attacking character with the locations of the other characters in the game. The distance between two characters is determined by the following formula:
 
-> distance = abs (x2 – x1) + abs (y2 – y1)
+> distance = abs (x2 â€“ x1) + abs (y2 â€“ y1)
 
 Finally, attack is based on the following numbers:
 > A Warrior (W or w) has an attack range of 1. Attack range is 7 to 14.
 > A Sorcerer (S or s) has an attack range of 2. Attack range is 1 to 10.
 > An Archer (A or a) has an attack range of 4. Attack range is 2 to 7.
 
-A character which has 0 hit points is represented as a ‘D’ or ‘d’ on the battlefield (depending on which team they are on).
+A character which has 0 hit points is represented as a â€˜Dâ€™ or â€˜dâ€™ on the battlefield (depending on which team they are on).
 The game ends when a team has no players left alive to continue fighting.
 
-+ The turn order and each character’s remaining/max hit points are displayed at all times during the game
++ The turn order and each characterâ€™s remaining/max hit points are displayed at all times during the game
 + The character whose turn it is currently is highlighted in the turn-order
 
 Sample screen:
@@ -45,7 +45,7 @@ S*****		a   <-
 P1: A: 20/20, W 20/20, S 20/20
 P2: a: 20/20, w 20/20, s 20/20
 
-+ "*" represents an empty space on the play field.  A, W, and S are for Player 1’s Archer, Warrior, and Sorcerer. a, w, and s are for Player 2’s team.
++ "*" represents an empty space on the play field.  A, W, and S are for Player 1â€™s Archer, Warrior, and Sorcerer. a, w, and s are for Player 2â€™s team.
 + Moving and Attacking are optional.
 + Dead characters do not get a turn
 + The corpse stays on the field until the game is over
