@@ -1,7 +1,7 @@
 Strategy Game
 =============
 
-![Strategy Game Chart](https://raw.githubusercontent.com/Cabrra/cabrra.github.io/master/Images/flowchart.jpg?token=AI_RbY1Cay3NRbFDP9bYFnmhpVMlgxVCks5bo5x_wA%3D%3D)
+![Strategy Game Chart](/Images/flowchart.jpg)
 
 This is a very simple two-player turn-based strategy game. Each player controls a three-character team on a 6x6 playfield. Each team consists of an Archer, Sorcerer, and Warrior. 
 
